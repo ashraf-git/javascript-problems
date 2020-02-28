@@ -8,3 +8,9 @@ for( var i = 0; i < name.length; i ++){
     }
 }
 console.log(uniqueName);
+
+function add(a, b){
+    return a + b;
+}
+add("adam" + "eve")
+console.log(add);
